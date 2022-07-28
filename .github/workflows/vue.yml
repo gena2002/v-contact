@@ -28,5 +28,5 @@ jobs:
           cache: 'npm'
       - run: npm i
       - run: npm run build
-      - run: mv /root/actions-runner/_work/v-contact/v-contact /var/www/html/vue/app
+      - run: mv /root/actions-runner/_work/v-contact/v-contact/dist /var/www/html/vue/app
 
