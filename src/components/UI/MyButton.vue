@@ -16,7 +16,7 @@ export default {
   background: none;
   box-shadow: none;
   cursor: pointer;
-  color: #0077ff;
+  color: #007bff;
   opacity: 1;
   transition-property: all;
   transition-duration: .3s;

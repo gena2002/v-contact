@@ -30,7 +30,7 @@ export default {
 }
 
 .input:focus {
-  outline: 2px solid #0077ff;
+  outline: 2px solid #007bff;
 }
 
 
