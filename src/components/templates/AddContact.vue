@@ -85,7 +85,8 @@ export default {
 }
 
 .grow {
-  height: 90vh !important;
+  top: 0;
+  height: 98.5vh !important;
   display: block;
   /*padding: 0 30px 30px 30px;*/
 }
