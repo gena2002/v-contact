@@ -1,28 +1,25 @@
 <template>
-  <div class="header">
-    <div class="content">
-      <my-button class="link">Выйти</my-button>
-      <div class="title">Контакты</div>
-      <my-button class="button">+</my-button>
+  <div class="content">
+    <my-button class="link">Выйти</my-button>
+    <div class="title">
+      <p>Контакты</p>
+      <div class="betaIcon">demo</div>
     </div>
-    <search-input placeholder="Поиск"/>
+    <my-button class="button" @click="showAddContact">+</my-button>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    showAddContact: {
+      type: Function
+    }
+  },
+}
 </script>
 
 <style scoped>
-.header {
-  width: 100%;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  padding: 15px 0;
-  background-color: white;
-}
-
 .content {
   width: 100%;
   display: flex;
@@ -33,6 +30,7 @@ export default {}
 .title {
   font-weight: bold;
   font-size: 16px;
+  position: relative;
 }
 
 .button {
@@ -43,5 +41,16 @@ export default {}
   font-size: 16px;
 }
 
+.betaIcon {
+  padding: 3px 5px;
+  background-color: #007bff;
+  color: white;
+  position: absolute;
+  right: -45px;
+  top: -10px;
+  font-size: 12px;
+  font-weight: normal;
+  border-radius: 6px;
+}
 
 </style>

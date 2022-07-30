@@ -13,7 +13,7 @@ export default {
   width: 100%;
   height: 1px;
   background-color: lightgray;
-  margin: 15px auto;
+  margin: 0 auto;
 }
 
 </style>

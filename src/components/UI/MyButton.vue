@@ -25,12 +25,18 @@ export default {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+
+  outline: none; /* Для синий ободки */
+  border: 0;
 }
 .btn:hover{
   opacity: 0.5;
 }
 .btn:active{
   color: gray;
+  outline: none; /* Для синий ободки */
+  border: 0;
+  background: none;
 }
 
 </style>
